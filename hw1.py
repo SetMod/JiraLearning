@@ -3,6 +3,7 @@ import sys
 
 folder_path = sys.argv[1]
 folder_name = sys.argv[2]
+
 try:
     folder_amount = int(sys.argv[3])
     folder_mode = int(sys.argv[4])
