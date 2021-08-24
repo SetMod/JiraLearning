@@ -7,10 +7,12 @@ folder_name = sys.argv[2]
 try:
     folder_amount = int(sys.argv[3])
     folder_mode = int(sys.argv[4])
+
     print('\nPath:', folder_path)
     print('Name:', folder_name)
     print('Amount:', folder_amount)
     print('Mode:', folder_mode, '\n')
+
     folder_path = os.path.join(os.path.expanduser('~'), folder_path)
     full_path = os.path.join(folder_path, folder_name)
     try:
